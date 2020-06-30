@@ -10,8 +10,9 @@ def exponential_smoothing(y):
 
 #fit the model
 def model_fit(model):
-    result = model.fit(smoothing_level=0.5, optimized=True, start_params=None, use_brute=True)
+    result = model.fit()
     return result
+    print(result)
 
 #model summary
 def summary(result):
