@@ -61,9 +61,6 @@ result_summary = sesm.summary(result)
 forecast_date = "2001-01-10"
 df_forecast = sesm.forecast(result,forecast_date)
 print("::::::::::::df_forecast",df_forecast)
-eval_results = sesm.evaluate_model(df,testSize,df_forecast)
-#print(":::::::::::::::::::::?????????????",eval_results)
-
 
 
 
